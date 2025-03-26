@@ -16,7 +16,7 @@ def load_and_preprocess_image(image_path, target_size=(224, 224)):
 
 # 2. Load Pre-trained Model
 print("Loading pre-trained model...")
-model = tf.keras.models.load_model("Finish_1/compare_V3.keras")
+model = tf.keras.models.load_model("New_Finish/food_comparison_model_mobilenet.keras")
 print("Model loaded successfully.")
 
 # 3. Prediction Function
